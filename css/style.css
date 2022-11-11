@@ -24,7 +24,16 @@ h1 {
   color:crimson;
   text-align: center;
 }
-
+#LSAttributes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#FGM, #FGA, #FTM, #FTA{
+  width: 100px;
+  height: 35px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
