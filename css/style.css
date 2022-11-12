@@ -61,7 +61,10 @@ button {
   margin-right: auto;
   margin-left: auto;
 }
-
+span {
+  width: 10px;
+  height: 10px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
