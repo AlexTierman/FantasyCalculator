@@ -9,6 +9,9 @@
 		<title>Fantasy Calculator</title>
 
 		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		
@@ -16,246 +19,303 @@
   <header> 
     <h1> Fantasy Basketball Calculator</h1>
   </header>
-
-	<form>
-		<section id="LS">
-			<h2 id="LSTitle">League Scoring</h2>
-
-			<ul id="LSAttributes">
-				<label title="Points" for="PTS">PTS</label>
-				<input 
-				id="PTS"
-				type="number"
-				name="PTS"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Field Goals Made" for="FGM">FGM</label>
-				<input 
-				id="FGM"
-				type="number"
-				name="FGM"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Field Goals Attempted" for="FGA">FGA</label>
-				<input 
-				id="FGA"
-				type="number"
-				name="FGA"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Free Throws Made" for="FTM">FTM</label>
-				<input 
-				id="FTM"
-				type="number"
-				name="FTM"
-				step="1"
-				placeholder="0"
-				>
-				<label title="3-Pointers Made" for="threePM">3PM</label>
-				<input 
-				id="threePM"
-				type="number"
-				name="3PM"
-				step="1"
-				placeholder="0"
-				>
-				<label title="3-Pointers Attempted" for="threePA">3PA</label>
-				<input 
-				id="threePA"
-				type="number"
-				name="3PA"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Offensive Rebounds" for="OREB">OREB</label>
-				<input 
-				id="OREB"
-				type="number"
-				name="OREB"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Rebounds" for="REB">REB</label>
-				<input 
-				id="REB"
-				type="number"
-				name="REB"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Assists" for="AST">AST</label>
-				<input 
-				id="AST"
-				type="number"
-				name="AST"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Steals" for="STL">STL</label>
-				<input 
-				id="STL"
-				type="number"
-				name="STL"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Blocks" for="BLK">BLK</label>
-				<input 
-				id="BLK"
-				type="number"
-				name="BLK"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Turnovers" for="TO">TO</label>
-				<input 
-				id="TO"
-				type="number"
-				name="TO"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Double-Double" for="DD">DD</label>
-				<input 
-				id="DD"
-				type="number"
-				name="DD"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Triple-Double" for="TD">TD</label>
-				<input 
-				id="TD"
-				type="number"
-				name="TD"
-				step="1"
-				placeholder="0"
-				>
-			</ul>
-		</section>
-		<section id="PS">
-			<h2 id="PSTitle">Player Scoring</h2>
-			
-			<ul id="PSAttributes">
-				<label title="Points" for="PTS">PTS</label>
-				<input 
-				id="PTS"
-				type="number"
-				name="PTS"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Field Goals Made" for="FGM">FGM</label>
-				<input 
-				id="FGM"
-				type="number"
-				name="FGM"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Field Goals Attempted" for="FGA">FGA</label>
-				<input 
-				id="FGA"
-				type="number"
-				name="FGA"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Free Throws Made" for="FTM">FTM</label>
-				<input 
-				id="FTM"
-				type="number"
-				name="FTM"
-				step="1"
-				placeholder="0"
-				>
-				<label title="3-Pointers Made" for="threePM">3PM</label>
-				<input 
-				id="threePM"
-				type="number"
-				name="3PM"
-				step="1"
-				placeholder="0"
-				>
-				<label title="3-Pointers Attempted" for="threePA">3PA</label>
-				<input 
-				id="threePA"
-				type="number"
-				name="3PA"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Offensive Rebounds" for="OREB">OREB</label>
-				<input 
-				id="OREB"
-				type="number"
-				name="OREB"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Rebounds" for="REB">REB</label>
-				<input 
-				id="REB"
-				type="number"
-				name="REB"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Assists" for="AST">AST</label>
-				<input 
-				id="AST"
-				type="number"
-				name="AST"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Steals" for="STL">STL</label>
-				<input 
-				id="STL"
-				type="number"
-				name="STL"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Blocks" for="BLK">BLK</label>
-				<input 
-				id="BLK"
-				type="number"
-				name="BLK"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Turnovers" for="TO">TO</label>
-				<input 
-				id="TO"
-				type="number"
-				name="TO"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Double-Double" for="DD">DD</label>
-				<input 
-				id="DD"
-				type="number"
-				name="DD"
-				step="1"
-				placeholder="0"
-				>
-				<label title="Triple-Double" for="TD">TD</label>
-				<input 
-				id="TD"
-				type="number"
-				name="TD"
-				step="1"
-				placeholder="0"
-				>
-			</ul>
-		</section>
-	</form>
 	<body>
+		<main>
+			<form>
+				<section id="LS">
+					<h2 id="LSTitle">League Scoring</h2>
+					<ul id="LSAttributes">
+						<div class="input">
+							<label title="Points" for="PTS">PTS</label>
+							<input 
+							id="PTS"
+							type="number"
+							name="PTS"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Field Goals Made" for="FGM">FGM</label>
+							<input 
+							id="FGM"
+							type="number"
+							name="FGM"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Field Goals Attempted" for="FGA">FGA</label>
+							<input 
+							id="FGA"
+							type="number"
+							name="FGA"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Free Throws Made" for="FTM">FTM</label>
+							<input 
+							id="FTM"
+							type="number"
+							name="FTM"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="3-Pointers Made" for="threePM">3PM</label>
+							<input 
+							id="threePM"
+							type="number"
+							name="3PM"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="3-Pointers Attempted" for="threePA">3PA</label>
+							<input 
+							id="threePA"
+							type="number"
+							name="3PA"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Offensive Rebounds" for="OREB">OREB</label>
+							<input 
+							id="OREB"
+							type="number"
+							name="OREB"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Rebounds" for="REB">REB</label>
+							<input 
+							id="REB"
+							type="number"
+							name="REB"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Assists" for="AST">AST</label>
+							<input 
+							id="AST"
+							type="number"
+							name="AST"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Steals" for="STL">STL</label>
+							<input 
+							id="STL"
+							type="number"
+							name="STL"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Blocks" for="BLK">BLK</label>
+							<input 
+							id="BLK"
+							type="number"
+							name="BLK"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Turnovers" for="TO">TO</label>
+							<input 
+							id="TO"
+							type="number"
+							name="TO"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Double-Double" for="DD">DD</label>
+							<input 
+							id="DD"
+							type="number"
+							name="DD"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Triple-Double" for="TD">TD</label>
+							<input 
+							id="TD"
+							type="number"
+							name="TD"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+					</ul>
+				</section>
+				<section id="PS">
+					<h2 id="PSTitle">Player Scoring</h2>
+					
+					<ul id="PSAttributes">
+						<div class="input">
+							<label title="Points" for="PTS">PTS</label>
+							<input 
+							id="PTS"
+							type="number"
+							name="PTS"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Field Goals Made" for="FGM">FGM</label>
+							<input 
+							id="FGM"
+							type="number"
+							name="FGM"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Field Goals Attempted" for="FGA">FGA</label>
+							<input 
+							id="FGA"
+							type="number"
+							name="FGA"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Free Throws Made" for="FTM">FTM</label>
+							<input 
+							id="FTM"
+							type="number"
+							name="FTM"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="3-Pointers Made" for="threePM">3PM</label>
+							<input 
+							id="threePM"
+							type="number"
+							name="3PM"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="3-Pointers Attempted" for="threePA">3PA</label>
+							<input 
+							id="threePA"
+							type="number"
+							name="3PA"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Offensive Rebounds" for="OREB">OREB</label>
+							<input 
+							id="OREB"
+							type="number"
+							name="OREB"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Rebounds" for="REB">REB</label>
+							<input 
+							id="REB"
+							type="number"
+							name="REB"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Assists" for="AST">AST</label>
+							<input 
+							id="AST"
+							type="number"
+							name="AST"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Steals" for="STL">STL</label>
+							<input 
+							id="STL"
+							type="number"
+							name="STL"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Blocks" for="BLK">BLK</label>
+							<input 
+							id="BLK"
+							type="number"
+							name="BLK"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Turnovers" for="TO">TO</label>
+							<input 
+							id="TO"
+							type="number"
+							name="TO"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Double-Double" for="DD">DD</label>
+							<input 
+							id="DD"
+							type="number"
+							name="DD"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+						<div class="input">
+							<label title="Triple-Double" for="TD">TD</label>
+							<input 
+							id="TD"
+							type="number"
+							name="TD"
+							step="1"
+							placeholder="0"
+							>
+						</div>
+					</ul>
+				</section>
+			</form>
+			<button type="submit">Calculate</button>
+		</main>
     
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Clear fix hack */
@@ -20,20 +21,45 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
+main {
+  /* display: flex; */
+}
 h1 {
   color:crimson;
   text-align: center;
 }
 form {
   display: flex;
-  flex: 50%;
+  width: 100%;
 }
-#LSAttributes {
-  
+#LS, #PS {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  text-align: center;
+}
+#LSAttributes, #PSAttributes {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  padding: 0;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.input > label {
+  align-self: center;
 }
 #FGM, #FGA, #FTM, #FTA, #threePM, #threePA, #OREB, #REB, #AST, #STL, #BLK, #TO, #DD, #TD, #PTS {
   width: 100px;
-  height: 35px;
+  height: 30px;
+}
+button {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /******************************************
