@@ -24,16 +24,18 @@ h1 {
   color:crimson;
   text-align: center;
 }
-#LSAttributes {
+form {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex: 50%;
 }
-#FGM, #FGA, #FTM, #FTA{
+#LSAttributes {
+  
+}
+#FGM, #FGA, #FTM, #FTA, #threePM, #threePA, #OREB, #REB, #AST, #STL, #BLK, #TO, #DD, #TD, #PTS {
   width: 100px;
   height: 35px;
 }
+
 /******************************************
 /* LAYOUT
 /*******************************************/
