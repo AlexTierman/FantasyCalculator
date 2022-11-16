@@ -21,9 +21,6 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-main {
-  /* display: flex; */
-}
 h1 {
   color:crimson;
   text-align: center;
@@ -53,8 +50,12 @@ form {
 .input > label {
   align-self: center;
 }
-#FGM, #FGA, #FTM, #FTA, #threePM, #threePA, #OREB, #REB, #AST, #STL, #BLK, #TO, #DD, #TD, #PTS {
+#LFGM, #PFGM, #LFGA, #PFGA, #LFTM, #PFTM, #LFTA, #PFTA, #LthreePM, #PthreePM, #LREB, #PREB, #LAST, #PAST, #LSTL, #PSTL, #LBLK, #PBLK, #LTO, #PTO, #LDD, #PDD, #LTD, #PTD, #LPTS, #PPTS {
   width: 100px;
+  height: 30px;
+}
+#LOREB, #POREB {
+  width: 92px;
   height: 30px;
 }
 button {
@@ -62,8 +63,13 @@ button {
   margin-left: auto;
 }
 span {
-  width: 10px;
-  height: 10px;
+  font-size: 25px;
+  width: 50px;
+  height: 30px;
+}
+#calculate {
+  display: flex;
+  align-self: center;
 }
 /******************************************
 /* LAYOUT

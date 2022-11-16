@@ -5,7 +5,19 @@
 
 // Create functions for calculation of player scores
 
-// Have a button that will calculate the player scores given and output to the DOM
+// Have a button that will calculate the player scores given and output them to the DOM
+
+// IDEAS & ADDITIONS //
+
+// The league scoring appears first requiring user input, then player scoring replaces league scoring on the DOM. Once both are input by the user a button appears that says calculate.
+
+// Add button/pop-up thats allows users to save their league scoring data to the local storage. Also create the ability to store multiple sets of league scoring data for the user. User can differentiate new sets by naming them. 
+
+// Add media query for mobile.
+
+// 
+
+
 
 function num(){
   const values = document.querySelectorAll(".leagueInput")
