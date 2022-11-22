@@ -15,7 +15,7 @@
 
 // Add media query for mobile.
 
-// 
+// Add buttons below the number input in order to add another form of user input for the league scoring column. Could be beneficial for mobile users.  
 
 
 
